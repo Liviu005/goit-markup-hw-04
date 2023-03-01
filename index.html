@@ -25,13 +25,13 @@
             <!--RightNavigationSection-->
             <ul class="right-navigation-list unstyled-list">
                 <li class="contact-list-item">
-                    <svg width="16px" height="12px">
+                    <svg class="right-navigation-icon" width="16px" height="12px">
                         <use href="images/icons-svg.svg#icon-envelope"></use>
                     </svg>
                     <a class="link right-navigation-list"
                         href="mailto:info@devstudio.com">info@devstudio.com</a></li>
                 <li class="contact-list-item">
-                    <svg width="10px" height="16px">
+                    <svg class="right-navigation-icon" width="10px" height="16px">
                         <use href="images/icons-svg.svg#icon-smartphone"></use>
                     </svg>
                     <a class="link right-navigation-list" href="tel:+12127724150">+1
@@ -40,64 +40,78 @@
         </header>
     </div>
     <main>
-        <section class="studio-height studio-height-background-image" style="background-image: url(images/background-for-studio.jpg);">
+        <section class="studio-height studio-height-background-image">
             <h1 class="first-studio-page-text">EFFECTIVE SOLUTIONS FOR<br> YOUR BUSINESS</h1>
             <button class="button-studio" type="button">Request our service</button>
         </section>
+        <!--Features-Section-->
         <section class="container-for-dimensions">
             <ul class="container-feature-studio unstyled-list">
                 <li class="feature-studio-list">
-                    <svg width="270px" height="120px" style="outline: 4px #F5F4FA;">
-                       <use href="images/icons-svg.svg#icon-antenna-1-1"></use>
-                      </svg>
+                    <div class="svg-container-features">
+                        <div class="center-svg">
+                        <svg class="svg-dimensions-features">
+                            <use href="images/icons-svg.svg#icon-antenna-1-1"></use>
+                        </svg>
+                        </div>
+                        <div class="feature-text">
+                        <h3 class="strenghts-title">ATTENTION TO DETAILS</h3>
+                        <p class="strenghts-description">We go into all the details and processes<br>
+                            of your business to develop a
+                            <br> customized solution.
+                        </p>
+                        </div>
+                    </div>
                 </li>
                 <li class="feature-studio-list">
-                    <svg width="270px" height="120px">
-                        <use href="images/icons-svg.svg#icon-clock-1-1"></use>
-                    </svg>
+                    <div class="svg-container-features">
+                        <div class="center-svg">
+                        <svg class="svg-dimensions-features">
+                            <use href="images/icons-svg.svg#icon-clock-1-1"></use>
+                        </svg>
+                        </div>
+                        <div class="feature-text">
+                        <h3 class="strenghts-title">PUNCTUALITY</h3>
+                        <p class="strenghts-description">With us, you can feel safe and secure. <br>
+                            An important principle of the company:
+                            <br>respect your time and deadlines.
+                            </p>
+                        </div>
+                    </div>
                 </li>
                 <li class="feature-studio-list">
-                    <svg width="270px" height="120px">
-                        <use href="images/icons-svg.svg#icon-diagram-1-1"></use>
-                    </svg>
+                    <div class="svg-container-features">
+                        <div class="center-svg">
+                        <svg class="svg-dimensions-features">
+                            <use href="images/icons-svg.svg#icon-diagram-1-1"></use>
+                        </svg>
+                        </div>
+                        <div class="feature-text">
+                        <h3 class="strenghts-title">PLANNING</h3>
+                        <p class="strenghts-description">You will be able to observe and<br>
+                            participate in every phase of solution<br>
+                            development and implementation.</p> 
+                        </div>
+                    </div>
                 </li>
                 <li class="feature-studio-list">
-                    <svg width="270px" height="120px">
-                        <use href="images/icons-svg.svg#icon-astronaut-1-1"></use>
-                    </svg>
+                    <div class="svg-container-features">
+                        <div class="center-svg">
+                        <svg class="svg-dimensions-features">
+                            <use href="images/icons-svg.svg#icon-astronaut-1-1"></use>
+                        </svg>
+                        </div>
+                        <div class="feature-text">
+                            <h3 class="strenghts-title">MODERN TECHNOLOGIES</h3>
+                            <p class="strenghts-description">We use innovative tools to solve<br>
+                            assigned tasks. It's time to simplify work<br>
+                            processes.</p> 
+                        </div>
+                    </div>
                 </li>
             </ul>
-            <ul class="studio-atributes unstyled-list">
-                <li class="strengths">
-                    <h3 class="strenghts-title">ATTENTION TO DETAILS</h3>
-                    <p class="strenghts-description">We go into all the details and processes<br>
-                        of your business to develop a
-                        <br> customized solution.
-                    </p>
-                </li>
-                <li class="strengths">
-                    <h3 class="strenghts-title">PUNCTUALITY</h3>
-                    <p class="strenghts-description">With us, you can feel safe and secure. <br>
-                        An important principle of the company:
-                        <br>respect your time and deadlines.
-                    </p>
-                </li>
-                <li class="strengths">
-                    <h3 class="strenghts-title">PLANNING</h3>
-                    <p class="strenghts-description">You will be able to observe and<br>
-                        participate in every phase of solution<br>
-                        development and implementation.</p>
-                </li>
-                <li class="strengths">
-                    <h3 class="strenghts-title">MODERN TECHNOLOGIES</h3>
-                    <p class="strenghts-description">We use innovative tools to solve<br>
-                        assigned tasks. It's time to simplify work<br>
-                        processes.</p>
-                </li>
-            </ul>
-        </section>
         <!--What-we-do-section-->
-        <section class="container-for-dimensions">
+        <section class="container-for-dimensions padding-bottom-class">
             <h2 class="center-text">What we do</h2>
             <ul class="what-we-do-images unstyled-list">
                 <li><img height="294" width="370" src="images/what_we_do1.jpg" alt=""></li>
@@ -115,26 +129,26 @@
                     <p class="container-sub-title-studio">Product Designer</p>
                     <div class="social-media-icons">
                         <ul class="unstyled-list">
-                            <li class="icon-list-item"> <a href="#">
-                                <svg width="20px" height="20px">
+                            <li class=""> <a class="icon-list-item" href="#">
+                                <svg class="social-media-icons-svg">
                                     <use href="images/icons-svg.svg#icon-instagram-2-1"></use>
                                 </svg>
                             </a></li>
-                            <li class="icon-list-item"> <a href="#">
-                                <svg width="20px" height="20px">
+                            <li class=""> <a class="icon-list-item" href="#">
+                                <svg class="social-media-icons-svg">
                                     <use href="images/icons-svg.svg#icon-twitter-1-1"></use>
                                 </svg>
                             </a></li>
-                            <li class="icon-list-item"> <a href="#">
-                                <svg width="20px" height="20px">
-                                <use href="images/icons-svg.svg#icon-facebook-1-1"></use>
-                            </svg>
-                        </a></li>
-                            <li class="icon-list-item"> <a href="#">
-                                <svg width="20px" height="20px">
-                                <use href="images/icons-svg.svg#icon-linkedin-1-1"></use>
-                            </svg>
-                        </a></li>
+                            <li class=""> <a class="icon-list-item" href="#">
+                                <svg class="social-media-icons-svg">
+                                    <use href="images/icons-svg.svg#icon-facebook-1-1"></use>
+                                </svg>
+                            </a></li>
+                            <li class=""> <a class="icon-list-item" href="#">
+                                <svg class="social-media-icons-svg">
+                                    <use href="images/icons-svg.svg#icon-linkedin-1-1"></use>
+                                </svg>
+                            </a></li>
                         </ul>
                     </div>
                 </li>
@@ -144,26 +158,26 @@
                     <p class="container-sub-title-studio">Frontend Developer</p>
                     <div class="social-media-icons">
                         <ul class="unstyled-list">
-                            <li class="icon-list-item"> <a href="#">
-                                <svg width="20px" height="20px">
+                            <li class=""> <a class="icon-list-item" href="#">
+                                <svg class="social-media-icons-svg">
                                     <use href="images/icons-svg.svg#icon-instagram-2-1"></use>
                                 </svg>
                             </a></li>
-                            <li class="icon-list-item"> <a href="#">
-                                <svg width="20px" height="20px">
+                            <li class=""> <a class="icon-list-item" href="#">
+                                <svg class="social-media-icons-svg">
                                     <use href="images/icons-svg.svg#icon-twitter-1-1"></use>
                                 </svg>
                             </a></li>
-                            <li class="icon-list-item"> <a href="#">
-                                <svg width="20px" height="20px">
-                                <use href="images/icons-svg.svg#icon-facebook-1-1"></use>
-                            </svg>
-                        </a></li>
-                            <li class="icon-list-item"> <a href="#">
-                                <svg width="20px" height="20px">
-                                <use href="images/icons-svg.svg#icon-linkedin-1-1"></use>
-                            </svg>
-                        </a></li>
+                            <li class=""> <a class="icon-list-item" href="#">
+                                <svg class="social-media-icons-svg">
+                                    <use href="images/icons-svg.svg#icon-facebook-1-1"></use>
+                                </svg>
+                            </a></li>
+                            <li class=""> <a class="icon-list-item" href="#">
+                                <svg class="social-media-icons-svg">
+                                    <use href="images/icons-svg.svg#icon-linkedin-1-1"></use>
+                                </svg>
+                            </a></li>
                         </ul>
                     </div>
                 </li>
@@ -173,26 +187,26 @@
                     <p class="container-sub-title-studio">Marketing</p>
                     <div class="social-media-icons">
                         <ul class="unstyled-list">
-                            <li class="icon-list-item"> <a href="#">
-                                <svg width="20px" height="20px">
+                            <li class=""> <a class="icon-list-item" href="#">
+                                <svg class="social-media-icons-svg">
                                     <use href="images/icons-svg.svg#icon-instagram-2-1"></use>
                                 </svg>
                             </a></li>
-                            <li class="icon-list-item"> <a href="#">
-                                <svg width="20px" height="20px">
+                            <li class=""> <a class="icon-list-item" href="#">
+                                <svg class="social-media-icons-svg">
                                     <use href="images/icons-svg.svg#icon-twitter-1-1"></use>
                                 </svg>
                             </a></li>
-                            <li class="icon-list-item"> <a href="#">
-                                <svg width="20px" height="20px">
-                                <use href="images/icons-svg.svg#icon-facebook-1-1"></use>
-                            </svg>
-                        </a></li>
-                            <li class="icon-list-item"> <a href="#">
-                                <svg width="20px" height="20px">
-                                <use href="images/icons-svg.svg#icon-linkedin-1-1"></use>
-                            </svg>
-                        </a></li>
+                            <li class=""> <a class="icon-list-item" href="#">
+                                <svg class="social-media-icons-svg">
+                                    <use href="images/icons-svg.svg#icon-facebook-1-1"></use>
+                                </svg>
+                            </a></li>
+                            <li class=""> <a class="icon-list-item" href="#">
+                                <svg class="social-media-icons-svg">
+                                    <use href="images/icons-svg.svg#icon-linkedin-1-1"></use>
+                                </svg>
+                            </a></li>
                         </ul>
                     </div>
                 </li>
@@ -202,73 +216,96 @@
                     <p class="container-sub-title-studio">UI Designer</p>
                     <div class="social-media-icons">
                         <ul class="unstyled-list">
-                            <li class="icon-list-item"> <a href="#">
-                                <svg width="20px" height="20px">
+                            <li class=""> <a class="icon-list-item" href="#">
+                                <svg class="social-media-icons-svg">
                                     <use href="images/icons-svg.svg#icon-instagram-2-1"></use>
                                 </svg>
                             </a></li>
-                            <li class="icon-list-item"> <a href="#">
-                                <svg width="20px" height="20px">
+                            <li class=""> <a class="icon-list-item" href="#">
+                                <svg class="social-media-icons-svg">
                                     <use href="images/icons-svg.svg#icon-twitter-1-1"></use>
                                 </svg>
                             </a></li>
-                            <li class="icon-list-item"> <a href="#">
-                                <svg width="20px" height="20px">
-                                <use href="images/icons-svg.svg#icon-facebook-1-1"></use>
-                            </svg>
-                        </a></li>
-                            <li class="icon-list-item"> <a href="#">
-                                <svg width="20px" height="20px">
-                                <use href="images/icons-svg.svg#icon-linkedin-1-1"></use>
-                            </svg>
-                        </a></li>
+                            <li class=""> <a class="icon-list-item" href="#">
+                                <svg class="social-media-icons-svg">
+                                    <use href="images/icons-svg.svg#icon-facebook-1-1"></use>
+                                </svg>
+                            </a></li>
+                            <li class=""> <a class="icon-list-item" href="#">
+                                <svg class="social-media-icons-svg">
+                                    <use href="images/icons-svg.svg#icon-linkedin-1-1"></use>
+                                </svg>
+                            </a></li>
                         </ul>
                     </div>
                 </li>
             </ul>
         </section>
-
         <!--Regular-Customers-->
         <section class="container-for-dimensions">
             <h2 class="center-text-1">Regular Customers</h2>
             <ul class="container-feature-studio-1 unstyled-list">
-                <li class="feature-studio-list">
-                    <svg width="106px" height="60px">
-                        <use href="images/icons-svg.svg#icon-Logo"></use>
-                    </svg>
+                <div class="svg-container-regular-customers">
+                    <li class="">
+                        <div class="svg-container-regular-customers-svg">
+                            <svg class="svg-dimensions-regular-customers">
+                                <use href="images/icons-svg.svg#icon-Logo"></use>
+                            </svg>
+                        </div>
+                    </li>
                 </div>
-                </li>
-                <li class="feature-studio-list">
-                    <svg width="106px" height="60px">
-                        <use href="images/icons-svg.svg#icon-Logo-1"></use>
-                    </svg>
-                </li>
-                <li class="feature-studio-list">
-                    <svg width="106px" height="60px">
-                        <use href="images/icons-svg.svg#icon-Logo-2"></use>
-                    </svg>
-                </li>
-                <li class="feature-studio-list">
-                    <svg width="106px" height="60px">
-                        <use href="images/icons-svg.svg#icon-Logo-3"></use>
-                    </svg>
-                </li>
-                <li class="feature-studio-list">
-                    <svg width="106px" height="60px">
-                        <use href="images/icons-svg.svg#icon-Logo-4"></use>
-                    </svg>
-                </li>
-                <li class="feature-studio-list">
-                    <svg width="106px" height="60px">
-                        <use href="images/icons-svg.svg#icon-Logo-5"></use>
-                    </svg>
-                </li>
+                <div class="svg-container-regular-customers">
+                    <li class="">
+                        <div class="svg-container-regular-customers-svg">
+                            <svg class="svg-dimensions-regular-customers">
+                                <use href="images/icons-svg.svg#icon-Logo-1"></use>
+                            </svg>
+                        </div>
+                    </li>
+                </div>
+                <div class="svg-container-regular-customers">
+                    <li class="">
+                        <div class="svg-container-regular-customers-svg">
+                            <svg class="svg-dimensions-regular-customers">
+                                <use href="images/icons-svg.svg#icon-Logo-2"></use>
+                            </svg>
+                        </div>
+                    </li>
+                </div>
+                <div class="svg-container-regular-customers">
+                    <li class="">
+                        <div class="svg-container-regular-customers-svg">
+                            <svg class="svg-dimensions-regular-customers">
+                                <use href="images/icons-svg.svg#icon-Logo-3"></use>
+                            </svg>
+                        </div>
+                    </li>
+                </div>
+                <div class="svg-container-regular-customers">
+                    <li class="">
+                        <div class="svg-container-regular-customers-svg">
+                            <svg class="svg-dimensions-regular-customers">
+                                <use href="images/icons-svg.svg#icon-Logo-4"></use>
+                            </svg>
+                        </div>
+                    </li>
+                </div>
+                <div class="svg-container-regular-customers">
+                    <li class="">
+                        <div class="svg-container-regular-customers-svg">
+                            <svg class="svg-dimensions-regular-customers">
+                                <use href="images/icons-svg.svg#icon-Logo-5"></use>
+                            </svg>
+                        </div>
+                    </li>
+                </div>
                 </ul>
         </section>
     </main>
     <!--PageFooter-->
     <footer class="page-footer">
         <div class="footer-style container-for-dimensions">
+            <div class="footer-logo-container">
             <section class="footer-section">
                 <a class="footer-logo link" href="index.html"><span class="span-for-logo">Web</span>Studio</a>
                 <address>
@@ -278,36 +315,34 @@
                         <li><a class="link contacts mail" href="tel:+12127724150">+1 212-772-4150</a></li>
                     </ul>
                 </address>
-        
-        </section>
-        <section class="find-us-section">
-            <p class="find-us-text">Find us on:</p>
-            <div class="social-icons">
-                <div class="social-media-icons">
-                    <ul class="unstyled-list">
-                        <li class="icon-list-item-footer"> <a href="#">
-                            <svg width="20px" height="20px">
-                                <use href="images/icons-svg.svg#icon-instagram-2-2"></use>
-                            </svg>
-                        </a></li>
-                        <li class="icon-list-item-footer"> <a href="#">
-                            <svg width="20px" height="20px">
-                                <use href="images/icons-svg.svg#icon-twitter-1-2"></use>
-                            </svg>
-                        </a></li>
-                        <li class="icon-list-item-footer"> <a href="#">
-                            <svg width="20px" height="20px">
-                            <use href="images/icons-svg.svg#icon-facebook-1-2"></use>
-                        </svg>
-                    </a></li>
-                        <li class="icon-list-item-footer"> <a href="#">
-                            <svg width="20px" height="20px">
-                            <use href="images/icons-svg.svg#icon-linkedin-1-2"></use>
-                        </svg>
-                    </a></li>
-                    </ul>
+            </section>
+            </div>
+            <section class="find-us-section">
+                <p class="find-us-text">Find us on:</p>
+                <div class="social-icons">
+                    <div class="social-media-icons">
+                        <ul class="unstyled-list">
+                            <li class="icon-list-item-footer"> <a href="#">
+                                    <svg width="20px" height="20px">
+                                        <use href="images/icons-svg.svg#icon-instagram-2-2"></use>
+                                    </svg></a></li>
+                            <li class="icon-list-item-footer"> <a href="#">
+                                    <svg width="20px" height="20px">
+                                        <use href="images/icons-svg.svg#icon-twitter-1-2"></use>
+                                    </svg></a></li>
+                            <li class="icon-list-item-footer"> <a href="#">
+                                    <svg width="20px" height="20px">
+                                        <use href="images/icons-svg.svg#icon-facebook-1-2"></use>
+                                    </svg></a></li>
+                            <li class="icon-list-item-footer"> <a href="#">
+                                    <svg width="20px" height="20px">
+                                        <use href="images/icons-svg.svg#icon-linkedin-1-2"></use>
+                                    </svg></a></li>
+                        </ul>
+                    </div>
                 </div>
-</div>
-
+            </section>
+        </div>
+    </footer>
 </body>
 </html>
