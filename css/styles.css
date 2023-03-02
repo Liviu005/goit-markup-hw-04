@@ -265,8 +265,6 @@ body{
 .studio-height {
     height: 600px;
     background-color: #2F303A;
-    background: linear-gradient(rgba(47, 48, 58, 0.7), rgba(47, 48, 58, 0.2)), url(../images/background-for-studio.jpg));
-    background: url(../images/background-for-studio.jpg);
     background: linear-gradient(rgba(90, 90, 94, 0.7), rgba(70, 72, 92, 0.2)), url(../images/background-for-studio.jpg);
     background-size: cover;
     background-position: center;
