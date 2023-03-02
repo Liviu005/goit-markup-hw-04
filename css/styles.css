@@ -74,12 +74,14 @@ body{
     flex-grow: 1;
 }
 
+/* Right-navigation-list */
+
 .right-navigation-list {
     color: #757575;
     display: flex;
-    gap: 40px;
     align-items: center;
     justify-content: flex-end;
+    padding-right: 30px;
 }
 
 .right-navigation-list:hover{
@@ -89,11 +91,14 @@ body{
     cursor: pointer;
 }
 
-.right-navigation-icon{
+.right-navigation-icon-1, .right-navigation-icon-2
+{
     color: #757575;
+    padding-right: 10px;
 }
 
-.right-navigation-icon:hover{
+.right-navigation-icon-1:hover , .right-navigation-icon-2:hover 
+{
     fill: #2196F3;
     color: #2196F3;
 }
@@ -115,14 +120,14 @@ body{
     text-align: center;
     letter-spacing: 0.03em;
     background: #F5F4FA;
-    border-color: #F5F4FA;
+    border: 0;
     border-radius: 4px;
     padding: 6px 22px;
 }
 
 .button-studio{
     background: #2196F3; 
-    border-color: #2196F3;
+    
 }
 
 .button:hover {
@@ -260,6 +265,7 @@ body{
 .studio-height {
     height: 600px;
     background-color: #2F303A;
+    background: linear-gradient(rgba(47, 48, 58, 0.7), rgba(47, 48, 58, 0.2)), url(../images/background-for-studio.jpg));
     background: url(../images/background-for-studio.jpg);
     background-size: cover;
     background-position: center;
